@@ -8,20 +8,20 @@ public class H3_main {
 		int k = -10;
 		
 		
-		if (i>j && i<199 && j<99)
+		if (i>j && i<201 && j<101)
 		{
 			k = 1;
 		}
 		
-		if (i>200 && i>j && j<99)
+		if (i>200 && i>j && j<101)
 		{
 			k = 2;
 		}
-		if (j>100 && i>100 && i>j)
+		if (j>100 && i>200 && i>j)
 		{
 			k = 3;
 		}
-		if (j<99 && i<199 && i<j)
+		if (j<101 && i<201 && i<j)
 		{
 			k = 4; 
 		}
@@ -30,3 +30,4 @@ public class H3_main {
 		
 	}
 }
+//tetstststst
